@@ -1,0 +1,304 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="nui://game/ui/jquery.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <script
+      src="https://kit.fontawesome.com/1644a3e86d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="SL-HUD">
+      <div class="centerFlexbox">
+        <section class="basicIndicators">
+          <div class="healthBarFlexBox">
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar10"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar9"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar8"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar7"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar6"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar5"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar4"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar3"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar2"></div>
+            </div>
+            <div class="healthBarBackground">
+              <div class="healthBar" id="healthBar1"></div>
+            </div>
+            <i id="healthBarIcon" class="fa-solid fa-heart"></i>
+          </div>
+          <div class="armorBarFlexBox">
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar10"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar9"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar8"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar7"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar6"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar5"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar4"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar3"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar2"></div>
+            </div>
+            <div class="armorBarBackground">
+              <div class="armorBar" id="armorBar1"></div>
+            </div>
+            <i id="armorBarIcon" class="fa-solid fa-shield"></i>
+          </div>
+          <div class="foodBarFlexBox">
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar10"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar9"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar8"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar7"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar6"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar5"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar4"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar3"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar2"></div>
+            </div>
+            <div class="foodBarBackground">
+              <div class="foodBar" id="foodBar1"></div>
+            </div>
+            <i id="foodBarIcon" class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="waterBarFlexBox">
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar10"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar9"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar8"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar7"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar6"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar5"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar4"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar3"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar2"></div>
+            </div>
+            <div class="waterBarBackground">
+              <div class="waterBar" id="waterBar1"></div>
+            </div>
+            <i id="waterBarIcon" class="fa-solid fa-droplet"></i>
+          </div>
+          <div class="staminaBarFlexBox">
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar10"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar9"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar8"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar7"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar6"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar5"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar4"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar3"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar2"></div>
+            </div>
+            <div class="staminaBarBackground">
+              <div class="staminaBar" id="staminaBar1"></div>
+            </div>
+            <i id="staminaBarIcon" class="fa-solid fa-person-running"></i>
+          </div>
+          <div class="oxygenBarFlexBox">
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar10"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar9"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar8"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar7"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar6"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar5"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar4"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar3"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar2"></div>
+            </div>
+            <div class="oxygenBarBackground">
+              <div class="oxygenBar" id="oxygenBar1"></div>
+            </div>
+            <i id="oxygenBarIcon" class="fa-solid fa-mask-ventilator"></i>
+          </div>
+        </section>
+      </div>
+      <section class="topRightFlexbox">
+        <div class="serverNameColored"></div>
+        <div class="serverName"></div>
+        <div class="stats">
+          <div class="infoBox">
+            <div class="pingBox">
+              <i id="pingIcon" class="fa-solid fa-signal"></i>
+              <div class="pingInnerBox">
+                <div class="playerPing"></div>
+                <div class="underline"></div>
+              </div>
+            </div>
+            <div class="playerBox">
+              <i id="playerIcon" class="fa-solid fa-address-card"></i>
+              <div class="playerInnerBox">
+                <div class="playerID"></div>
+                <div class="underline"></div>
+              </div>
+            </div>
+          </div>
+          <div class="playersBox">
+            <i id="playersIcon" class="fa-solid fa-users"></i>
+            <div class="playersInnerBox">
+              <div class="players"></div>
+              <div class="underline"></div>
+            </div>
+          </div>
+          <div class="jobBox">
+            <div class="jobNameBox">
+              <div class="playerJobName"></div>
+              <div class="underline"></div>
+            </div>
+            <div class="split">|</div>
+            <div class="jobRankBox">
+              <div class="playerJobRank"></div>
+              <div class="underline"></div>
+            </div>
+          </div>
+          <div class="blackMoneyBox">
+            <i id="blackMoneyIcon" class="fa-solid fa-handcuffs"></i>
+            <div class="blackMoneyInnerBox">
+              <div class="blackMoney"></div>
+              <div class="underline"></div>
+            </div>
+          </div>
+          <div class="moneyBox">
+            <i id="moneyIcon" class="fa-solid fa-money-bill"></i>
+            <div class="moneyInnerBox">
+              <div class="money"></div>
+              <div class="underline"></div>
+            </div>
+          </div>
+          <div class="bankMoneyBox">
+            <i id="bankMoneyIcon" class="fa-solid fa-building-columns"></i>
+            <div class="bankMoneyInnerBox">
+              <div class="bankMoney"></div>
+              <div class="underline"></div>
+            </div>
+          </div>
+          <div class="safeZoneBox">
+            <i id="safeZoneIcon" class="fa-solid fa-user-shield"></i>
+            <div class="safeZoneInnerBox">
+              <div class="safeZone">SAFEZONE</div>
+              <div class="underline"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="keyBinds"></section>
+      <section class="notificationFlexbox"></section>
+      <section class="announcementFlexbox"></section>
+      <section class="streetIndicator">
+        <div class="indicatorFlexbox">
+          <i id="locationIcon" class="fa-solid fa-location-dot"></i>
+          <div class="textBox">
+            <div class="streetUnderline">
+              <div class="streetName"></div>
+              <div class="underline"></div>
+            </div>
+            <div class="regionName"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

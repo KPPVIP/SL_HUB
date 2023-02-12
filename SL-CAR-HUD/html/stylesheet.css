@@ -1,0 +1,212 @@
+body {
+  overflow: hidden;
+  font-family: "Inter";
+}
+#flexbox {
+  overflow: hidden;
+  position: absolute;
+  height: 99.4%;
+  width: 99.6%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#background {
+  position: absolute;
+  width: 350px;
+  height: 45px;
+  bottom: 63px;
+}
+#rpm-blur {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  filter: blur(1px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: 0.2s linear;
+}
+#rpm-counter {
+  position: absolute;
+  height: 40px;
+  width: 0px;
+  background-color: rgb(124, 237, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(124, 237, 255, 0.6);
+  transition: 0.2s linear;
+}
+#speed {
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  margin-left: 47.7%;
+  margin-bottom: 145px;
+}
+#speed-underlay {
+  position: relative;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 47.4%;
+  margin-bottom: 145px;
+}
+#unit {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  bottom: 131px;
+}
+#divide-line {
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 128px;
+  border-radius: 100px;
+}
+.bind-flexbox {
+  position: absolute;
+  width: 160px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0px;
+}
+.bind-flexbox .cruise-flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.bind-flexbox .cruise-flexbox .cruise-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.bind-flexbox .cruise-flexbox .cruise-bind-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  transition: 50ms linear;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0);
+}
+.bind-flexbox .cruise-flexbox .cruise-bind-box .cruise-bind {
+  position: relative;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+}
+
+.bind-flexbox .seatbelt-flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.bind-flexbox .seatbelt-flexbox .seatbelt-icon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 0px;
+  transition: 100ms linear;
+}
+.bind-flexbox .seatbelt-flexbox .seatbelt-bind-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  transition: 50ms linear;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0);
+}
+.bind-flexbox .seatbelt-flexbox .seatbelt-bind-box .seatbelt-bind {
+  position: relative;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+}
+#fuel-flexbox {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-left: 140px;
+  margin-bottom: 13px;
+}
+#fuel-img {
+  position: relative;
+  margin-bottom: 21px;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  transition: 0.2s linear;
+}
+#fuel-background {
+  position: absolute;
+  left: 44px;
+  width: 0px;
+  height: 6px;
+  bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(124, 237, 255, 0.6);
+  transition: 0.2s linear;
+  max-width: 200px;
+  overflow: hidden;
+}
+#fuel-bar {
+  position: relative;
+  margin-left: -13px;
+  width: 0px;
+  height: 6px;
+  background-color: rgb(124, 237, 255);
+  border-radius: 5px;
+  transition: 0.2s linear;
+  max-width: 212px;
+}
+#fuel-blur {
+  position: absolute;
+  left: 44px;
+  width: 200px;
+  height: 6px;
+  bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: 0.2s linear;
+}

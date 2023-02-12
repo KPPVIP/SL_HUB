@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="nui://game/ui/jquery.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="speedometer">
+      <div id="flexbox">
+        <div id="speed"></div>
+        <div id="speed-underlay"></div>
+        <div id="unit">Km/h</div>
+        <div id="divide-line"></div>
+        <div id="background">
+          <div id="rpm-blur"></div>
+          <div id="rpm-counter"></div>
+        </div>
+        <div class="bind-flexbox">
+          <div class="cruise-flexbox">
+            <img
+              class="cruise-icon"
+              src="images/cruise-control.png"
+              alt="Couldn't to load Image"
+            />
+            <div class="cruise-bind-box">
+              <div class="cruise-bind">G</div>
+            </div>
+          </div>
+          <div class="seatbelt-flexbox">
+            <img
+              class="seatbelt-icon"
+              src="images/seatbelt-red.png"
+              alt="Couldn't to load Image"
+            />
+            <div class="seatbelt-bind-box">
+              <div class="seatbelt-bind">B</div>
+            </div>
+          </div>
+        </div>
+        <div id="fuel-flexbox">
+          <img
+            id="fuel-img"
+            src="images/fuel.png"
+            alt="Couldn't to load Image"
+          />
+          <div id="fuel-background">
+            <div id="fuel-bar"></div>
+          </div>
+          <div id="fuel-blur"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
